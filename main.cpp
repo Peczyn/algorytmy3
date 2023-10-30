@@ -82,7 +82,6 @@ void Stos::push(Punkt* punkt)
     temp->y = punkt->y;
     temp->next = top;
     top=temp;
-    top = temp;
 }
 
 Punkt *Stos::pop() {
